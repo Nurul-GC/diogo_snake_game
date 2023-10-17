@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GameSettings">
+  <grid id="27dc6" binding="main_Panel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="659" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15724265"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e918a" class="javax.swing.JButton" binding="return_button">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <foreground color="-3995897"/>
+          <opaque value="false"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="a9ed9" class="javax.swing.JButton" binding="save_button">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="18" style="1"/>
+          <foreground color="-13974778"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="ec2a1" class="javax.swing.JButton" binding="reset_button">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="18" style="1"/>
+          <foreground color="-4816"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <grid id="54e43" binding="skin_settings_Panel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303029"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="74845" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Century Gothic" size="14" style="1"/>
+              <foreground color="-394241"/>
+              <text value="Snake skin:"/>
+            </properties>
+          </component>
+          <component id="56f05" class="javax.swing.JRadioButton" binding="red_option">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="Red"/>
+            </properties>
+          </component>
+          <component id="ec9f5" class="javax.swing.JRadioButton" binding="blue_option">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="Blue"/>
+            </properties>
+          </component>
+          <component id="79418" class="javax.swing.JRadioButton" binding="colour_default">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="default[Green]"/>
+            </properties>
+          </component>
+          <component id="28121" class="javax.swing.JRadioButton" binding="yellow_option">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="Yellow"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="881d5" binding="world_settings_Panel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303029"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2ee52" class="javax.swing.JRadioButton" binding="grass_option">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="Grass"/>
+            </properties>
+          </component>
+          <component id="9eda7" class="javax.swing.JRadioButton" binding="water_option">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="Water"/>
+            </properties>
+          </component>
+          <component id="806c9" class="javax.swing.JRadioButton" binding="desert_option">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="Desert"/>
+            </properties>
+          </component>
+          <component id="dbaac" class="javax.swing.JRadioButton" binding="world_default">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="default[Space]"/>
+            </properties>
+          </component>
+          <component id="a99bb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Century Gothic" size="14" style="1"/>
+              <foreground color="-394241"/>
+              <text value="World :"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="863fd" binding="difficulty_settings_Panel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12303029"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="997f0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Century Gothic" size="14" style="1"/>
+              <foreground color="-394241"/>
+              <text value="Difficulty:"/>
+            </properties>
+          </component>
+          <component id="fd512" class="javax.swing.JRadioButton" binding="difficulty_default">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="default[easy]"/>
+            </properties>
+          </component>
+          <component id="9af3e" class="javax.swing.JRadioButton" binding="medium_option">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="medium"/>
+            </properties>
+          </component>
+          <component id="4d971" class="javax.swing.JRadioButton" binding="hard_option">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="hard"/>
+            </properties>
+          </component>
+          <component id="e1634" class="javax.swing.JRadioButton" binding="easy_option">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-12303029"/>
+              <font size="16"/>
+              <foreground color="-394241"/>
+              <text value="easy"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="6ef88" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="22" style="1"/>
+          <foreground color="-394241"/>
+          <text value="Game Settings"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
